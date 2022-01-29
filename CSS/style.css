@@ -1,0 +1,70 @@
+body {
+    font-family: 'Audiowide', cursive;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9b9b9b;
+    color: white;
+}
+
+.board td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.board td:hover {
+    background-color: #ff4da6;
+}
+
+.boom {
+    background-color: rgb(195, 24, 24);
+}
+.good {
+    font-weight: 600;
+    background-color: rgb(116, 116, 116);
+}
+
+div label {
+    font-size: 30px;
+    color: rgb(160, 58, 155);
+    padding: 10px;
+}
+
+table {
+    margin-top: 40px;
+    border: 6px dashed rgb(54, 25, 39);
+    border-collapse: collapse;
+    -webkit-box-shadow: 0px 0px 15px 15px rgba(32, 2, 17, 0.52);
+    box-shadow: 0px 0px 15px 15px rgba(12, 1, 6, 0.52);
+}
+
+td {
+    text-align: center;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 0.9;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 60px;
+    color: rgb(54, 25, 39);
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}  
