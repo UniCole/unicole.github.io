@@ -14,8 +14,15 @@
     <link rel="stylesheet" href="CSS/style.css">
 
 </head>
+
+<video autoplay muted loop id="myVideo">
+    <source src="videos/bg.mp4" type="video/mp4">
+</video>
+
 <body onload="initGame()">
+    
 <h1>Minesweeper</h1>
+
     <table border="1" cellpadding="10">
         <tbody class="board"></tbody>
     </table>
@@ -24,5 +31,6 @@
     <script src="JS/game.js"></script>
 
     <div style="font-family: 'Audiowide', cursive;" class="timer"></div>
+
 </body>
 </html>

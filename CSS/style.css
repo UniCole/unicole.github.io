@@ -1,3 +1,26 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 0px;
+}
+
 body {
     font-family: 'Audiowide', cursive;
     letter-spacing: 5px;
